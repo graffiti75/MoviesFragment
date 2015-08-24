@@ -1,7 +1,5 @@
 package com.example.rodrigo.moviesfragment.manager;
 
-import android.content.Context;
-
 /**
  * ContentManager.java class.
  * 
@@ -24,9 +22,6 @@ public class ContentManager {
 	// The fragment position.
 	private Integer mPosition = 0;
 	
-	// The application context.
-	private Context mContext;
-	
 	//----------------------------------------------
 	// Constructor
 	//----------------------------------------------
@@ -46,19 +41,6 @@ public class ContentManager {
 		return sInstance;
 	}
 
-	//----------------------------------------------
-	// Global Methods
-	//----------------------------------------------
-	
-	/**
-	 * Sets the application context.
-	 * 
-	 * @param context The context to be used.
-	 */
-	public void setContext(Context context) {
-		mContext = context;
-	}
-	
 	//----------------------------------------------
 	// Position
 	//----------------------------------------------
